@@ -25,5 +25,14 @@
         "processor": "i5 12500 OEM",
         "clock": "\u041c\u0441\u043a6",
         "imageSrc": "https://cdn.discordapp.com/avatars/1117077414388973618/f84e98de1c72dd03ee76051179b7f73d.png?size=1024"
+    },
+    {
+        "name": "zadarmo",
+        "id": "719480147916619807",
+        "birthday": "20.09.2009",
+        "card": "RTX 3050Ti",
+        "processor": "i5 12500h",
+        "clock": "\u041c\u0441\u043a+2",
+        "imageSrc": "https://cdn.discordapp.com/avatars/719480147916619807/81245749f64d64afe54a874561e7b6b5.png?size=1024"
     }
 ]
