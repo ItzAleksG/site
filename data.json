@@ -45,12 +45,48 @@
         "imageSrc": "https://images-ext-2.discordapp.net/external/V0wC9djkXtKzyVd6JnqZc7iYJs4lFfSgGIVciboj684/%3Fsize%3D512/https/cdn.discordapp.com/avatars/702835178241785918/d59997421c31387ad2b6e2b9ad4c0ba5.png"
     },
     {
-        "name": "\u042e\u043d\u0438",
+        "name": "\u0414\u0435\u0434 \u042e\u043d\u0438",
         "id": "\u0442\u044b \u0434\u0443\u043c\u0430\u043b \u0442\u0443\u0442 \u0447\u0442\u043e-\u0442\u043e \u0431\u0443\u0434\u0435\u0442?",
         "birthday": "2000 \u043b\u0435\u0442 \u0434\u043e \u043d.\u044d",
         "card": "GeForce MX130",
         "processor": "Core(TM) I5-8400T CPU",
         "clock": "\u041c\u0441\u043a+3",
         "imageSrc": "https://pm1.aminoapps.com/7301/d4ca62643909fc5f9e81612e550bba3c5400e7d6r1-2048-1721v2_hq.jpg"
+    },
+    {
+        "name": "\u0424\u0440\u0443\u0441",
+        "id": "522889648650059786",
+        "birthday": "4 \u041c\u0430\u044f 2007",
+        "card": "HD Graphics 520",
+        "processor": "I3 6100U",
+        "clock": "\u041c\u0441\u043a-1",
+        "imageSrc": "https://images-ext-2.discordapp.net/external/-mhGZFRtH44GcHmiepw87x2HnasUnFE6_UOuRcgSRMY/%3Fsize%3D512/https/cdn.discordapp.com/avatars/522889648650059786/c21d4dd843e4511cc846be8d93058354.png?width=472&height=472"
+    },
+    {
+        "name": "\u0421\u0442\u0451\u043f\u0430",
+        "id": "755032347593932850",
+        "birthday": "16 \u041c\u0430\u0440\u0442\u0430 2009",
+        "card": "HD Graphics 520",
+        "processor": "pentium dual-core E5400",
+        "clock": "\u041c\u0441\u043a+0",
+        "imageSrc": "https://images-ext-1.discordapp.net/external/8Uz4OkK7uHf0MrbjMZ75QmJ3Yzpz8p_id0Nk84N6Vm8/%3Fsize%3D512/https/cdn.discordapp.com/avatars/755032347593932850/45df5bb6a149fbb5d2c900a8d73d16da.png"
+    },
+    {
+        "name": "\u0420\u0435\u0434",
+        "id": "707202260551204965",
+        "birthday": "\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u043e",
+        "card": "GTX 1030",
+        "processor": "I5 2400",
+        "clock": "\u041c\u0441\u043a+0",
+        "imageSrc": "https://images-ext-1.discordapp.net/external/CCepTNB-NHKZOgE17ne_q2vLXEFENhOqaGDXEnA46wE/%3Fsize%3D512/https/cdn.discordapp.com/avatars/707202260551204965/d0036b5eea2aa848cbe7965defdb7b69.png"
+    },
+    {
+        "name": "\u041a\u0440\u0438\u043a",
+        "id": "926654119891058719",
+        "birthday": "25 \u0430\u0432\u0433\u0443\u0441\u0442\u0430 2008",
+        "card": "GTX 470",
+        "processor": "Ryzen 5 5600",
+        "clock": "\u041c\u0441\u043a+7",
+        "imageSrc": "https://images-ext-1.discordapp.net/external/KdpHv_PkEioOcGEkxGohzJWYUr1mY9C55OcT7gd4Nos/%3Fsize%3D512/https/cdn.discordapp.com/avatars/926654119891058719/a5cb73a049f62fece71df18c81568593.png"
     }
 ]
