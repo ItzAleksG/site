@@ -9,12 +9,30 @@
         "imageSrc": "https://images-ext-2.discordapp.net/external/ihVIOzxdj7lCksSV3iGylmjlzAx6DoCNJpakR5Nc5SE/%3Fsize%3D512/https/cdn.discordapp.com/avatars/719480147916619807/81245749f64d64afe54a874561e7b6b5.png"
     },
     {
+        "name": "\u0413\u0440\u0438\u0433\u0430",
+        "id": "736523648768278599",
+        "birthday": "10 \u0410\u0432\u0433\u0443\u0441\u0442\u0430 2009",
+        "card": "\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u043e",
+        "processor": "\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u043e",
+        "clock": "\u041c\u0441\u043a+2",
+        "imageSrc": "https://images-ext-2.discordapp.net/external/nvDmcDHhG_rQXd_-k44iVT7Vt4QCsIs1PVK5ts_5UsU/%3Fsize%3D512/https/cdn.discordapp.com/avatars/736523648768278599/6e4a706e436f48cceca743d8314b63a3.png"
+    },
+    {
         "name": "\u0410\u043b\u0435\u043a\u0441",
         "id": "574131624866873366",
-        "birthday": "26 October 2007",
-        "card": "\u0419\u0426\u0423\u041a\u0415\u041d\u0413\u0428\u0429\u0417\u0425\u042a\u0424\u042b\u0412\u0410\u041f\u0420\u041e\u041b\u0414\u0416\u042d\u042f\u0427\u0421\u041c\u0418\u0422\u042c\u0411\u042e",
-        "processor": "\u0439\u0446\u0443\u043a\u0435\u043d\u0433\u0448\u0449\u0437\u0445\u044a\u0444\u044b\u0432\u0430\u043f\u0440\u043e\u043b\u0434\u0436\u044d\u044f\u0447\u0441\u043c\u0438\u0442\u044c\u0431\u044e",
+        "birthday": "26 \u041e\u043a\u0442\u044f\u0431\u0440\u044f 2007",
+        "card": "GTX 1050ti",
+        "processor": "I5 10400Fe",
         "clock": "\u041c\u0441\u043a+7",
         "imageSrc": "https://cdn.discordapp.com/avatars/574131624866873366/4da78f3e653a1b83735f516162a231ad.png?size=1024"
+    },
+     {
+        "name": "\u0417\u0438\u0440\u043e",
+        "id": "615008925346955274",
+        "birthday": "30 \u0410\u0432\u0433\u0443\u0441\u0442\u0430 2008",
+        "card": "GTX 1050ti",
+        "processor": "I5 10400F",
+        "clock": "\u041c\u0441\u043a+0",
+        "imageSrc": "https://images-ext-1.discordapp.net/external/LmUNHp65N9Vuv57V0vR2-ovEHvl8OIA51G5S_y-YTtc/%3Fsize%3D512/https/cdn.discordapp.com/avatars/615008925346955274/1f67414b6fb45568aa832aa101fc1fa7.png?width=472&height=472"
     }
 ]
