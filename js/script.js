@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
           const img = document.createElement('img');
           img.id = 'img';
+          img.alt = 'Увы данное изоброжение устарело, пропишите команду /site на нашем сервере и оно появится снова';
           img.src = person.imageSrc;
   
           const name = document.createElement('h1');
