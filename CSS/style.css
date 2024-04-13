@@ -49,6 +49,7 @@
 .header #id {
   color: #333;
   background-color: #fff;
+  font-weight: bold;
   margin: 2%;
   padding: 1%;
   border-radius: 10px;
