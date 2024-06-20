@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
           img.id = 'img';
           img.loading = 'lazy';
           img.alt = 'Увы данное изоброжение устарело, пропишите команду /update на нашем сервере и появится новое';
-          img.src = person.imageSrc;
+          img.src = 'IMGs/avatar/'+person.id+'.gif';
   
           const name = document.createElement('h1');
           name.id = 'name';
