@@ -13,10 +13,11 @@ document.addEventListener("DOMContentLoaded", function() {
   
           const header = document.createElement('div');
           header.classList.add('header');
-  
+          header.style.backgroundImage = 'url(\'IMGs/back/'+person.id+'.gif\')';
+
           const img = document.createElement('img');
           img.id = 'img';
-          img.loading = 'lazy'
+          img.loading = 'lazy';
           img.alt = 'Увы данное изоброжение устарело, пропишите команду /update на нашем сервере и появится новое';
           img.src = person.imageSrc;
   
@@ -59,4 +60,3 @@ document.addEventListener("DOMContentLoaded", function() {
       })
       .catch(error => console.error('Ошибка загрузки данных: ', error));
   });
-  
