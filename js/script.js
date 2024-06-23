@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
             { class: 'icon-birthday-cake', id: 'birthday', text: formatDate(person.birthday) },
             { class: 'icon-graphics-card', id: 'card', text: person.card },
             { class: 'icon-processor', id: 'processor', text: person.processor },
-            { class: 'icon-clock', id: 'clock', text: person.clock },
+            { class: 'icon-clock', id: 'clock', text: 'Мск'+person.clock },
           ];
           
           header.appendChild(img);
