@@ -5,7 +5,7 @@
         "birthday": "20.09.2009",
         "card": "RTX 3050Ti M",
         "processor": "i5 12500h M",
-        "clock": "\u041c\u0441\u043a+2"
+        "clock": "+2"
     },
     {
         "name": "grigga",
@@ -13,7 +13,7 @@
         "birthday": "10.08.2009",
         "card": "\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u043e",
         "processor": "\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u043e",
-        "clock": "\u041c\u0441\u043a+2"
+        "clock": "+2"
     },
     {
         "name": "\u0410\u043b\u0435\u043a\u0441",
@@ -21,7 +21,7 @@
         "birthday": "26.10.2007",
         "card": "GTX 1050ti",
         "processor": "I5 10400F",
-        "clock": "\u041c\u0441\u043a+7"
+        "clock": "+7"
     },
     {
         "name": "Mr. Z I I R O",
@@ -29,7 +29,7 @@
         "birthday": "30.10.2008",
         "card": "GTX 1050 TI",
         "processor": "I5 10400F",
-        "clock": "\u041c\u0441\u043a+0"
+        "clock": "+0"
     },
     {
         "name": "\u0412\u0438\u043a\u0443\u0448\u0430\ud83d\udc27",
@@ -37,7 +37,7 @@
         "birthday": "25.11.2008",
         "card": "GeForce 610M",
         "processor": "I5 3330s",
-        "clock": "\u041c\u0441\u043a+2"
+        "clock": "+2"
     },
     {
         "name": "\u0414\u0435\u0434 \u042e\u043d\u0438",
@@ -45,7 +45,7 @@
         "birthday": "20.04.1889",
         "card": "GeForce MX130",
         "processor": "Core(TM) I5-8400T CPU",
-        "clock": "\u041c\u0441\u043a+2"
+        "clock": "+2"
     },
     {
         "name": "Frus",
@@ -53,7 +53,7 @@
         "birthday": "04.05.2007",
         "card": "HD Graphics 520",
         "processor": "I3 6100U",
-        "clock": "\u041c\u0441\u043a-1"
+        "clock": "-1"
     },
     {
         "name": "White_Wolf",
@@ -61,7 +61,7 @@
         "birthday": "16.03.2009",
         "card": "gt220",
         "processor": "pentium dual-core E5400",
-        "clock": "\u041c\u0441\u043a-1"
+        "clock": "-1"
     },
     {
         "name": "\u041a\u0430\u043a\u043e\u0439-\u0442\u043e \u0420\u044d\u0434",
@@ -69,7 +69,7 @@
         "birthday": "26.05.2010",
         "card": "GTX 1030",
         "processor": "I5 2400",
-        "clock": "\u041c\u0441\u043a+0"
+        "clock": "+0"
     },
     {
         "name": "kreker_TUCTUC",
@@ -77,6 +77,6 @@
         "birthday": "25.08.2008",
         "card": "GTX 470",
         "processor": "Ryzen 5 5600",
-        "clock": "\u041c\u0441\u043a+7"
+        "clock": "+7"
     }
 ]
