@@ -78,6 +78,14 @@
         "card": "GTX 470",
         "processor": "Ryzen 5 5600",
         "clock": "+7"
+    },
+    {
+        "name": "test-bot",
+        "id": "1173497798180749312",
+        "birthday": "13.11.2023",
+        "card": "GTX 1050ti",
+        "processor": "I5 10400F",
+        "clock": "+7"
     }
 ]
 
