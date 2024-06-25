@@ -1,74 +1,83 @@
 [
-  {
-    "name": "\u0428\u0440\u043a",
-    "id": "719480147916619807",
-    "birthday": "20.09.2009",
-    "card": "RTX 3050Ti M",
-    "processor": "i5 12500h M",
-    "clock": "+2"
-  },
-  {
-    "name": "grigga",
-    "id": "736523648768278599",
-    "birthday": "10.08.2009",
-    "card": "\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u043e",
-    "processor": "\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u043e",
-    "clock": "+2"
-  },
-  {
-    "name": "Mr. Z I I R O",
-    "id": "615008925346955274",
-    "birthday": "30.10.2008",
-    "card": "GTX 1050 TI",
-    "processor": "I5 10400F",
-    "clock": "+0"
-  },
-  {
-    "name": "\u0412\u0438\u043a\u0443\u0448\u0430\ud83d\udc27",
-    "id": "702835178241785918",
-    "birthday": "25.11.2008",
-    "card": "GeForce 610M",
-    "processor": "I5 3330s",
-    "clock": "+2"
-  },
-  {
-    "name": "\u0414\u0435\u0434 \u042e\u043d\u0438",
-    "id": "\u0442\u0443\u0442 \u043f\u0443\u0441\u0442\u043e",
-    "birthday": "20.04.1889",
-    "card": "GeForce MX130",
-    "processor": "Core(TM) I5-8400T CPU",
-    "clock": "+2"
-  },
-  {
-    "name": "Frus",
-    "id": "522889648650059786",
-    "birthday": "04.05.2007",
-    "card": "HD Graphics 520",
-    "processor": "I3 6100U",
-    "clock": "-1"
-  },
-  {
-    "name": "White_Wolf",
-    "id": "755032347593932850",
-    "birthday": "16.03.2009",
-    "card": "gt220",
-    "processor": "pentium dual-core E5400",
-    "clock": "-1"
-  },
-  {
-    "name": "\u041a\u0430\u043a\u043e\u0439-\u0442\u043e \u0420\u044d\u0434",
-    "id": "707202260551204965",
-    "birthday": "26.05.2010",
-    "card": "GTX 1030",
-    "processor": "I5 2400",
-    "clock": "+0"
-  },
-  {
-    "name": "kreker_TUCTUC",
-    "id": "926654119891058719",
-    "birthday": "25.08.2008",
-    "card": "GTX 470",
-    "processor": "Ryzen 5 5600",
-    "clock": "+7"
-  }
+    {
+        "name": "\u0428\u0440\u043a",
+        "id": "719480147916619807",
+        "birthday": "20.09.2009",
+        "card": "RTX 3050Ti M",
+        "processor": "i5 12500h M",
+        "clock": "+2"
+    },
+    {
+        "name": "grigga",
+        "id": "736523648768278599",
+        "birthday": "10.08.2009",
+        "card": "\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u043e",
+        "processor": "\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u043e",
+        "clock": "+2"
+    },
+    {
+        "name": "\u0410\u043b\u0435\u043a\u0441",
+        "id": "574131624866873366",
+        "birthday": "26.10.2007",
+        "card": "GTX 1050ti",
+        "processor": "I5 10400F",
+        "clock": "+7"
+    },
+    {
+        "name": "Mr. Z I I R O",
+        "id": "615008925346955274",
+        "birthday": "30.10.2008",
+        "card": "GTX 1050 TI",
+        "processor": "I5 10400F",
+        "clock": "+0"
+    },
+    {
+        "name": "\u0412\u0438\u043a\u0443\u0448\u0430\ud83d\udc27",
+        "id": "702835178241785918",
+        "birthday": "25.11.2008",
+        "card": "GeForce 610M",
+        "processor": "I5 3330s",
+        "clock": "+2"
+    },
+    {
+        "name": "\u0414\u0435\u0434 \u042e\u043d\u0438",
+        "id": "\u0442\u0443\u0442 \u043f\u0443\u0441\u0442\u043e",
+        "birthday": "20.04.1889",
+        "card": "GeForce MX130",
+        "processor": "Core(TM) I5-8400T CPU",
+        "clock": "+2"
+    },
+    {
+        "name": "Frus",
+        "id": "522889648650059786",
+        "birthday": "04.05.2007",
+        "card": "HD Graphics 520",
+        "processor": "I3 6100U",
+        "clock": "-1"
+    },
+    {
+        "name": "White_Wolf",
+        "id": "755032347593932850",
+        "birthday": "16.03.2009",
+        "card": "gt220",
+        "processor": "pentium dual-core E5400",
+        "clock": "-1"
+    },
+    {
+        "name": "\u041a\u0430\u043a\u043e\u0439-\u0442\u043e \u0420\u044d\u0434",
+        "id": "707202260551204965",
+        "birthday": "26.05.2010",
+        "card": "GTX 1030",
+        "processor": "I5 2400",
+        "clock": "+0"
+    },
+    {
+        "name": "kreker_TUCTUC",
+        "id": "926654119891058719",
+        "birthday": "25.08.2008",
+        "card": "GTX 470",
+        "processor": "Ryzen 5 5600",
+        "clock": "+7"
+    }
 ]
+
