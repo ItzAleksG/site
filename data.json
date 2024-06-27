@@ -78,5 +78,13 @@
     "card": "GTX 470",
     "processor": "Ryzen 5 5600",
     "clock": "+7"
+  },
+  {
+    "name": "Fantom6926",
+    "id": "750544004025942037",
+    "birthday": "14.04.1111",
+    "card": "RTX 3060",
+    "processor": "I5 10400",
+    "clock": "+7"
   }
 ]
