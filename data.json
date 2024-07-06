@@ -16,6 +16,14 @@
     "clock": "+2"
   },
   {
+    "name": "\u0410\u043b\u0435\u043ac",
+    "id": "574131624866873366",
+    "birthday": "26.10.2007",
+    "card": "GTX 1050ti",
+    "processor": "I5 10400F",
+    "clock": "+7"
+  },
+  {
     "name": "Mr. Z I I R O",
     "id": "615008925346955274",
     "birthday": "30.10.2008",
@@ -69,14 +77,6 @@
     "birthday": "25.08.2008",
     "card": "GTX 470",
     "processor": "Ryzen 5 5600",
-    "clock": "+7"
-  },
-  {
-    "name": "\u0410\u043b\u0435\u043ac",
-    "id": "574131624866873366",
-    "birthday": "26.10.2007",
-    "card": "GTX 1050ti",
-    "processor": "I5 10400F",
     "clock": "+7"
   }
 ]
