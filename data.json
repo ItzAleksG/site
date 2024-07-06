@@ -70,5 +70,13 @@
     "card": "GTX 470",
     "processor": "Ryzen 5 5600",
     "clock": "+7"
+  },
+  {
+    "name": "\u0410\u043b\u0435\u043ac",
+    "id": "574131624866873366",
+    "birthday": "26.10.2007",
+    "card": "GTX 1050ti",
+    "processor": "I5 10400F",
+    "clock": "+7"
   }
 ]
