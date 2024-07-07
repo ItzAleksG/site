@@ -5,7 +5,7 @@ function formatDate(dateString) {
     ];
     
     const dateParts = dateString.split(".");
-    const day = dateParts[0];
+    const day = parseInt(dateParts[0]);
     const monthIndex = parseInt(dateParts[1], 10) - 1;
     const year = dateParts[2];
     
