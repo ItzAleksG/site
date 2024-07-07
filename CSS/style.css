@@ -12,44 +12,35 @@
   padding: 20px;
   box-sizing: border-box;
   display: inline-block;
-}
+} 
 
-.container {
-  width: 100%;
-  max-width: 800px;
-  margin: 0 1%;
-  padding: 20px;
-  box-sizing: border-box;
-  display: inline-block;
+.header {
+  display: flex;
+  align-items: center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-position: center;
+  background-size: cover; 
 }
   
-  .header {
-    display: flex;
-    align-items: center;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    background-position: center;
-    background-size: cover; 
-  }
-  
-  .header img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin-right: 15px;
-    border-radius: 50%;
-    padding: 1%;
-  }
+.header img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 15px;
+  border-radius: 50%;
+  padding: 1%;
+}
 
-  .header h1 {
-    font-size: 410%;
-    padding: 0 15px;
-    border-radius: 35px;
-  }
+.header h1 {
+  font-size: 410%;
+  padding: 0 15px;
+  border-radius: 35px;
+}
 
-  #id {
-    display: none;
-  }
+#id {
+  display: none;
+}
 
 .header #id {
   color: #333;
@@ -61,41 +52,41 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
   
-  .content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 5% 0%;
-    font-size: 150%;
-  }
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5% 0%;
+  font-size: 150%;
+}
   
-  .content p {
-    margin: 10px 5px;
-  }
+.content p {
+  margin: 10px 5px;
+}
 
-  .shadow {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-  }
+.shadow {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+ 
+body {
+  font-family: sans-serif;
+}
 
-  body {
-    font-family: sans-serif;
-  }
+[inert], [inert] * {
+  opacity: 0.7;
+  pointer-events: none;
+  cursor: default;
+  user-select: none;
+}
 
-  [inert], [inert] * {
-    opacity: 0.7;
-    pointer-events: none;
-    cursor: default;
-    user-select: none;
-  }
-
-  .theme {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    padding: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+.theme {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 
 .theme svg {
