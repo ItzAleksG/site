@@ -78,5 +78,13 @@
     "card": "GTX 470",
     "processor": "Ryzen 5 5600",
     "clock": "+7"
+  },
+  {
+    "name": "Fish 2.0",
+    "id": "683897790945951854",
+    "birthday": "01.10.2008",
+    "card": "RTX 2060 6GB",
+    "processor": "I5 9400F",
+    "clock": "+2"
   }
 ]
