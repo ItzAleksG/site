@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
           const img = document.createElement('img');
           img.id = 'img';
           img.loading = 'lazy';
-          img.src = `IMGs/avatar/${person.id}.gif`;
+          img.src = `IMGs/avatar/${person.id}.png`;
   
           const name = document.createElement('h1');
           name.id = 'name';
