@@ -18,13 +18,11 @@
 
         <script src="js/script.js"></script>
         <script src="js/theme.js"></script>
-        <pre style="display: none;"><code>import tkinter as tk
-        from tkinter import simpledialog as sd
+        <pre style="display: none;"><code>
+import tkinter as tk
+from tkinter import simpledialog as sd
         
-        import random
-        from threading import Thread
-        
-        figures = {
+figures = {
                 'king': '♚',
                 'queen': '♛',
                 'bishop': '♝',
@@ -33,11 +31,8 @@
                 'rook': '♜'
             }
         
-        class Chess():
+class Chess():
             def __init__(self):
-                
-                self.id = self.gen_id()
-                
                 self.colors = {
                     'board': ['darkgray', 'gray'],
                     'figures': {
@@ -57,34 +52,28 @@
                 self.root.resizable(0, 0)
                 self.root.title('Chessматы')
                 
-                tk.Button(self.root, text='Rotate', command=lambda: self.rotate()).grid(row=0, sticky='w', padx=10, pady=10)
+                tk.Button(self.root, text='Restart', command=lambda: self.restart(), width=5).grid(row=0, sticky='w', padx=10, pady=10)
+                tk.Button(self.root, text='Rotate', command=lambda: self.rotate(), width=5).grid(row=0, sticky='e', padx=10, pady=10)
                 self.label = tk.Label(self.root, text='Ходят Белые')
                 self.label.grid(column=0, row=0, pady=10)
                 
                 self.board = tk.Frame(self.root)
                 self.board.grid(column=0, row=1)
                 
-                self.boardBtns = [[tk.Button(self.board, state='disabled', fg='blue', command=lambda value=(i, j): self.in_turn(value), relief='sunken') for j in range(8)] for i in range(8)]
+                self.boardBtns = [[tk.Button(self.board, relief='sunken') for j in range(8)] for i in range(8)]
                 
                 for y in range(8):
                     for x in range(8):
-                        self.boardBtns[y][x].config(font='Arial 20', bg=self.colors['board'][(x+y)%2], width=4, height=2, 
+                        self.boardBtns[y][x].config(font='Arial 20', width=4, height=2, 
                                                     activebackground=self.colors['selector'][0], activeforeground='lightblue')
                         self.boardBtns[y][x].grid(column=x, row=y)
                 
-                self.place_figure()
+                self.restart()
                         
                 for i in ''.split():
                     self.htext_to_turn(i)
         
                 self.root.mainloop()
-            
-            def gen_id(self):
-                ''' Генерация id для пользователя (Мультиплеер) '''
-                id = ''
-                nums = [str(random.randint(0, 9)) for _ in range(12)]
-                for _ in nums: id += _
-                return id
             
             def rotate(self):
                 ''' Переворот доски на противоположную сторону '''
@@ -94,11 +83,12 @@
                         else: self.boardBtns[y][x].grid(column=x, row=y)
                 self.rotation = not self.rotation
             
-            def place_figure(self):
+            def restart(self):
                 ''' Размещение фигур на доске '''
                 self.dangerBoard = { 'pos': [[0 for _ in range(8)] for _ in range(8)] }
+                print('\n----------------')
                 for y in range(8):
-                    if not y < 4:
+                    if y >= 6:
                         color = 'white'
                         state = 'normal'
                         cursor = 'hand2'
@@ -108,24 +98,30 @@
                         cursor = 'arrow'
                     for x in range(8):
                         if y == 1 or y == 6: 
-                            self.boardBtns[y][x].config(text= figures['pawn'], fg=self.colors['figures'][color], disabledforeground=self.colors['figures'][color], state=state, cursor=cursor)
+                            self.boardBtns[y][x].config(text= figures['pawn'], fg=self.colors['figures'][color], disabledforeground=self.colors['figures'][color])
                             self.dangerBoard['pos'][y][x] = f'{color}-p'
-                        if y == 0 or y == 7:
+                        elif y == 0 or y == 7:
                             if x == 0 or x == 7: 
-                                self.boardBtns[y][x].config(text= figures['rook'], fg=self.colors['figures'][color], disabledforeground=self.colors['figures'][color], state=state, cursor=cursor)
+                                self.boardBtns[y][x].config(text= figures['rook'], fg=self.colors['figures'][color], disabledforeground=self.colors['figures'][color])
                                 self.dangerBoard['pos'][y][x] = f'{color}-R'
                             elif x == 1 or x == 6: 
-                                self.boardBtns[y][x].config(text= figures['knight'], fg=self.colors['figures'][color], disabledforeground=self.colors['figures'][color], state=state, cursor=cursor)
+                                self.boardBtns[y][x].config(text= figures['knight'], fg=self.colors['figures'][color], disabledforeground=self.colors['figures'][color])
                                 self.dangerBoard['pos'][y][x] = f'{color}-N'
                             elif x == 2 or x == 5: 
-                                self.boardBtns[y][x].config(text= figures['bishop'], fg=self.colors['figures'][color], disabledforeground=self.colors['figures'][color], state=state, cursor=cursor)
+                                self.boardBtns[y][x].config(text= figures['bishop'], fg=self.colors['figures'][color], disabledforeground=self.colors['figures'][color])
                                 self.dangerBoard['pos'][y][x] = f'{color}-B'
                             elif x == 3: 
-                                self.boardBtns[y][x].config(text= figures['queen'], fg=self.colors['figures'][color], disabledforeground=self.colors['figures'][color], state=state, cursor=cursor)
+                                self.boardBtns[y][x].config(text= figures['queen'], fg=self.colors['figures'][color], disabledforeground=self.colors['figures'][color])
                                 self.dangerBoard['pos'][y][x] = f'{color}-Q'
                             else: 
-                                self.boardBtns[y][x].config(text= figures['king'], fg=self.colors['figures'][color], disabledforeground=self.colors['figures'][color], state=state, cursor=cursor)
+                                self.boardBtns[y][x].config(text= figures['king'], fg=self.colors['figures'][color], disabledforeground=self.colors['figures'][color])
                                 self.dangerBoard['pos'][y][x] = f'{color}-K'
+                        else:
+                            self.boardBtns[y][x].config(text='', fg='blue', disabledforeground='blue')
+                            self.dangerBoard['pos'][y][x] = 0
+                        
+                        self.boardBtns[y][x].config(state=state, cursor=cursor, bg=self.colors['board'][(y+x)%2],
+                                                    command=lambda value=(y, x): self.in_turn(value))
                     
                 self.dangerBoard['pred'] = [[j for j in i] for i in self.dangerBoard['pos']]
                                 
@@ -151,9 +147,12 @@
                 if self.boardBtns[old_value[0]][old_value[1]]['text'] ==  figures['pawn'] and (value[0] == 0 or value[0] == 7):
                     if not htextToTurnSelected: self.choose_figure()
                     else: self.choosedFigure = htextToTurnSelected
-                    self.boardBtns[old_value[0]][old_value[1]]['text'] =  figures[self.choosedFigure]
+                    
                     if self.choosedFigure == 'knight': htext += '=N'
                     else: htext += f'={self.choosedFigure[0].upper()}'
+
+                    self.boardBtns[old_value[0]][old_value[1]]['text'] =  figures[self.choosedFigure]
+                    self.dangerBoard['pos'][old_value[0]][old_value[1]] = self.dangerBoard['pos'][old_value[0]][old_value[1]][:-1] + htext[-1]
                     
                 self.history.append(htext)
                 print(self.history[-1], end=' ')
@@ -244,12 +243,12 @@
                 for dy in range(-1, 2):
                     for dx in range(-1, 2):
                         if dy+y == y and dx+x == x: continue
-                        if 8 > dy+y >= 0 and 8 > dx+x >= 0 and self.boardBtns[dy+y][dx+x]['fg'] != self.colors['figures'][self.dangerBoard['pred'][y][x][:-2]] and not dangerBoard[dy+y][dx+x]:
+                        if 8 > dy+y >= 0 and 8 > dx+x >= 0 and (self.boardBtns[dy+y][dx+x]['fg'] != self.colors['figures'][self.dangerBoard['pred'][y][x][:-2]] or check) and not dangerBoard[dy+y][dx+x]:
                                 if not check:
                                     if self.danger_prediction((y, x), (dy+y, dx+x)): self.generate_selector((y, x), (dy+y, dx+x))
                                 else: self.dangerBoard['check'][self.dangerBoard['pred' if check else 'pos'][y][x][:-2]][y+dy][x+dx] = 1
         
-                if x == 4 and (y == 0 or y ==7) and len(self.history) and not check:
+                if x == 4 and (y == 0 or y ==7) and len(self.history) and not check and not dangerBoard[y][x]:
                     for i in self.history:
                         if f'Ke{8-y}x' in i: return
                     self.roque(y, x, dangerBoard)
@@ -280,7 +279,7 @@
                     if self.danger_prediction((y, x), (y+index, x)): self.generate_selector((y, x), (y+index, x))
                 
                 for i in [-1, 1]:
-                    if 8 > x+i >= 0 and 8 > y+index >= 0 and (self.dangerBoard['pred'][y+index][x+i] != 0 or check) and self.boardBtns[y+index][x+i]['fg'] != self.colors['figures'][self.dangerBoard['pred'][y][x][:-2]]:
+                    if 8 > x+i >= 0 and 8 > y+index >= 0 and (self.dangerBoard['pred'][y+index][x+i] != 0 or check) and (self.boardBtns[y+index][x+i]['fg'] != self.colors['figures'][self.dangerBoard['pred'][y][x][:-2]] or check):
                         if not check:
                             if self.danger_prediction((y, x), (y+index, x+i)): self.generate_selector((y, x), (y+index, x+i))
                         else:
@@ -416,22 +415,24 @@
                     else: x = 1
                     self.slot_selected((y, 4), (y, x), True)
         
-        class figureChoose(sd.Dialog):
-            ''' Всплывающее окно для выбора фигуры когда пешка доходит до края '''
-            def choosed(self, fig):
-                ''' Вызов функции сохраняющей выбор и закрытие окна '''
-                Chess.choose_figure(self=Chess, figure=fig)
-                self.cancel()
-            
-            def buttonbox(self):
-                ''' Создание кнопок в модальном окне '''
-                self.resizable(0, 0)
-                box = tk.Frame(self)
-                for i in ['queen', 'knight', 'rook', 'bishop']:
-                    tk.Button(box, text=figures[i], command=lambda x=i: self.choosed(fig=x), width=4, height=2, font='Arial 20', cursor='hand2', bg='darkgray', activebackground='lightgray').pack(side='left', padx=2)
-                box.pack(padx=10, pady=10)
+class figureChoose(sd.Dialog):
+    ''' Всплывающее окно для выбора фигуры когда пешка доходит до края '''
+    def choosed(self, fig):
+        ''' Вызов функции сохраняющей выбор и закрытие окна '''
+        Chess.choose_figure(self=Chess, figure=fig)
+        self.cancel()
+    
+    def buttonbox(self):
+        ''' Создание кнопок в модальном окне '''
+        self.resizable(0, 0)
+        box = tk.Frame(self)
+        for i in ['queen', 'knight', 'rook', 'bishop']:
+            tk.Button(box, text=figures[i], command=lambda x=i: self.choosed(fig=x), width=4, height=2,
+                      font='Arial 20', cursor='hand2', bg='darkgray', activebackground='lightgray').pack(side='left', padx=2)
+        box.pack(padx=10, pady=10)
         
-        if __name__ == '__main__':
-            Chess()</code></pre>
+if __name__ == '__main__':
+            Chess()
+        </code></pre>
     </body>
 </html>
