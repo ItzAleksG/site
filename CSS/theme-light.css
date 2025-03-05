@@ -26,3 +26,7 @@ body {
   background-color: #fff;
   color: #333;
 }
+
+pre {
+    background-color: #f5f5f5;
+}
