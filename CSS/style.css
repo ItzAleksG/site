@@ -97,3 +97,7 @@ pre {
     padding: 1%;
     border-radius: 20px;
 }
+
+pre code {
+  font-size: large;
+}
