@@ -92,3 +92,8 @@ body {
 .theme svg {
     cursor: pointer;
 }
+
+pre {
+    padding: 1%;
+    border-radius: 20px;
+}
